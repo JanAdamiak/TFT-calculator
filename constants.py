@@ -1,0 +1,71 @@
+DEFAULT_SYNERGIES = {
+    "Scalescorn": 0,
+    "Guild": 0,
+    "Ragewing": 0,
+    "Whispers": 0,
+    "Astral": 0,
+    "Jade": 0,
+    "Tempest": 0,
+    "Trainer": 0,
+    "Mirage": 0,
+    "Revel": 0,
+    "Shimmerscale": 0,
+    "Assassin": 0,
+    "Bard": 0,
+    "Bruiser": 0,
+    "Dragon": 0,
+    "Spell-Thief": 0,
+    "Starcaller": 0,
+    "Swiftshot": 0,
+    "Warrior": 0,
+    "Cannoneer": 0,
+    "Dragonmancer": 0,
+    "Evoker": 0,
+    "Guardian": 0,
+    "Mage": 0,
+    "Mystic": 0,
+    "Shapeshifter": 0,
+    "Cavalier": 0,
+    "Legend": 0
+}
+
+SYNERGY_TRESHOLDS = {
+    "Scalescorn": (2, 4, 6),
+    "Guild": (1, 2, 3, 4, 5, 6),
+    "Ragewing": (3, 6, 9),
+    "Whispers": (2, 4, 6, 8),
+    "Astral": (3, 6 , 9),
+    "Jade": (3, 6, 9, 12),
+    "Tempest": (2, 4, 6, 8),
+    "Trainer": (2, 3),
+    "Mirage": (2, 4, 6, 8),
+    "Revel": (2, 3, 4, 5),
+    "Shimmerscale": (3, 5, 7, 9),
+    "Assassin": (2, 4 ,6),
+    "Bard": (1, ),
+    "Bruiser": (2, 4, 6, 8),
+    "Dragon": (1, ),
+    "Spell-Thief": (1, ),
+    "Starcaller": (1, ),
+    "Swiftshot": (2, 4, 6),
+    "Warrior": (2, 4, 6),
+    "Cannoneer": (2, 3, 4, 5),
+    "Dragonmancer": (3, 6, 9),
+    "Evoker": (2, 4, 6),
+    "Guardian": (2, 4, 6),
+    "Mage": (3, 5, 7, 9),
+    "Mystic": (2, 3, 4, 5),
+    "Shapeshifter": (2, 4, 6),
+    "Cavalier": (2, 3, 4, 5),
+    "Legend": (3, )
+}
+
+CHAMPIONS = {
+    "Aatrox": ("Shimmerscale", "Warrior"),
+    "Anivia": ("Jade", "Evoker", "Legend"),
+    "Ao Shin": ("Tempest", "Tempest", "Tempest", "Dragon"),
+    "Ashe": ("Jade", "Dragonmancer", "Swiftshot"),
+    "Aurelion Sol": ("Astral", "Astral", "Astral", "Evoker", "Dragon")
+}
+
+DRAGON_CHAMPIONS = ("Ao Shin", "Aurelion Sol", "Daeja", "Idas", "Shi Oh Yu", "Shyvana", "Syfen")
